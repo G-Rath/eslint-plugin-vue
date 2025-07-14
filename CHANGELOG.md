@@ -1,5 +1,17 @@
 # eslint-plugin-vue
 
+## 10.4.0
+
+### Minor Changes
+
+- Added `ignoreParents` option to [`vue/no-deprecated-slot-attribute`](https://eslint.vuejs.org/rules/no-deprecated-slot-attribute.html) ([#2784](https://github.com/vuejs/eslint-plugin-vue/pull/2784))
+
+- Added new [`vue/no-negated-condition`](https://eslint.vuejs.org/rules/no-negated-condition.html) rule ([#2795](https://github.com/vuejs/eslint-plugin-vue/pull/2795))
+
+### Patch Changes
+
+- Resolved TypeScript compatibility issues introduced by eslint-typegen ([#2790](https://github.com/vuejs/eslint-plugin-vue/pull/2790))
+
 ## 10.3.0
 
 ### Minor Changes
